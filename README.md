@@ -1,2 +1,2 @@
-# JPA Peristencia
-Projeto pesitencia com JPA
+# JPA Peristência
+Projeto pesitência com JPA
