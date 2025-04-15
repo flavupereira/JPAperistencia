@@ -1,0 +1,6 @@
+br\com\flavio\loja\dao\CategoriaDao.class
+br\com\flavio\loja\modelo\Categoria.class
+br\com\flavio\loja\util\JPAUtil.class
+br\com\flavio\loja\modelo\Produto.class
+br\com\flavio\loja\dao\ProdutoDao.class
+br\com\flavio\loja\testes\CadastroDeProdutos.class
