@@ -18,3 +18,25 @@ O projeto implementa um sistema básico de loja virtual com funcionalidades de C
 - MySQL 8.3.0
 
 - Maven para gerenciamento de dependências
+
+## 🗃 Entidades
+
+**Categoria**
+
+- id (Long) - Identificador único
+
+- nome (String) - Nome da categoria
+
+**Produto**
+
+- **id (Long)** - Identificador único
+
+- **nome (String)** - Nome do produto
+
+- **descricao (String)** - Descrição do produto
+
+- **preco (BigDecimal)** - Preço do produto
+
+- **dataCadastro (LocalDate)** - Data de cadastro (automática)
+
+- **categoria (Categoria)** - Relacionamento Many-to-One com Categoria
