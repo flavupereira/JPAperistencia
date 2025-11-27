@@ -40,3 +40,53 @@ O projeto implementa um sistema básico de loja virtual com funcionalidades de C
 - **dataCadastro (LocalDate)** - Data de cadastro (automática)
 
 - **categoria (Categoria)** - Relacionamento Many-to-One com Categoria
+
+## 🔧 Configuração
+  ### Banco de Dados
+
+Configure o banco de dados MySQL no arquivo persistence.xml:
+
+```
+<property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/loja_virtual"/>
+<property name="jakarta.persistence.jdbc.user" value="root"/>
+<property name="jakarta.persistence.jdbc.password" value="root"/>
+```
+## Dependências Maven
+
+As principais dependências estão configuradas no pom.xml:
+
+- Hibernate Core
+
+- Spring Data JPA
+
+- Jakarta Persistence API
+
+- MySQL Connector
+
+## 🚀 Funcionalidades
+
+**CategoriaDao**
+
+- Cadastrar categoria
+
+- Atualizar categoria
+
+- Listar categoria
+
+- Deletar categoria
+
+- Procurar categoria por nome
+
+**ProdutoDao**
+
+- Cadastrar produto
+
+- Buscar produto por ID
+
+- Buscar todos os produtos
+
+- Buscar produtos por nome
+
+- Buscar produtos por categoria
+
+Buscar preço do produto por nome
